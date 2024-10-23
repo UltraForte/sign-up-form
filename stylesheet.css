@@ -1,3 +1,15 @@
+@font-face {
+    font-family: Oswald;
+    src: url(assets/Oswald\,Rubik/Oswald/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Rubik;
+    src: url(assets/Oswald\,Rubik/Rubik/Rubik-VariableFont_wght.ttf);
+}
+html {
+    font-family: Rubik, sans-serif;
+}
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -56,4 +68,3 @@
     padding-inline: 0;
   }
 
-  
