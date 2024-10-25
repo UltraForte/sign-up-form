@@ -122,6 +122,7 @@ img#logo {
 }
 #content-div {
     background-color: rgb(247, 247, 247);
+    width: 100%;
 }
 
 #form-section {
