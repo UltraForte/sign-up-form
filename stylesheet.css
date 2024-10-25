@@ -145,6 +145,7 @@ button, input, label {
 }
 label {
     font-size: 0.6rem;
+    letter-spacing: 2px;
 }
 input {
     border: rgb(209, 209, 209) 1px solid;
@@ -178,4 +179,28 @@ input:required:valid {
 }
 #password, #confirm-pass {
   margin-bottom: 15px;
+}
+
+#last-section {
+  padding: 20px 0 0 25px;
+}
+#create-account {
+  width: 160px;
+  height: 32px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: rgb(155, 113, 23);
+  color: rgb(247, 247, 247)
+}
+#last-section h2#log-in {
+  padding-bottom: 0px;
+  padding-top: 10px;
+  padding-left: 4px;
+}
+h2#log-in a {
+  color: rgb(155, 113, 23);
+}
+h2#log-in a:hover {
+  text-decoration: underline;
 }
