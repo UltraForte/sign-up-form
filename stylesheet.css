@@ -158,8 +158,9 @@ input {
     border: rgb(209, 209, 209) 1px solid;
     border-radius: 3px;
     font-size: 0.8rem;
-    height: 25px;
-    width: 200px;
+    height: calc(1rem + 1vw);
+    width: calc(10rem + 4vw);
+    padding-left: 5px;
 }
 input:hover, input:focus {
     background-color: rgb(243, 243, 243);
@@ -191,10 +192,9 @@ input:required:valid {
 #last-section {
   padding:  calc(0.4rem + 2vw) 0 0 var(--content-padding-left);
 }
-#create-account {
-  width: 10rem;
-  height: 2rem;
-  font-size: 0.8rem;
+button#create-account {
+  padding: calc(1vw / 2) calc(0.7rem + 2vw);
+  font-size: calc(0.3rem + 1vw);
   font-weight: 500;
   border-radius: 5px;
   background-color: rgb(155, 113, 23);
